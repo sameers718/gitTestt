@@ -25,12 +25,14 @@ public class ComparableNdComparatorTest {
 		Employee emp2=new Employee("sameer");
 		Employee emp3=new Employee("prathamesh");
 		Employee emp4=new Employee("shrikant");
+		Employee emp5=new Employee("Aditya");
 	
 		TreeSet<Employee> t2=new TreeSet<>(new Employee(""));
 		t2.add(emp1);
 		t2.add(emp2);
 		t2.add(emp3);
 		t2.add(emp4);
+		t2.add(emp5);
 		
 		System.out.println(t2);
 	}
